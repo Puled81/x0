@@ -1,7 +1,8 @@
 //// Wild circles #2.
-String title=  "Click for another circle.";
-String subtitle=  "Press any key to erase.";
-String author=  "Bruce Alan Martin";
+String title=  "Welcome.";
+String subtitle=  "Learning Programming.";
+String author=  "Drake P";
+String message= "Creation 101";
 
 // GLOBAL VARIABLES //
 float x,y;
@@ -24,6 +25,7 @@ void draw() {
   text( w+"x"+h, width/2,height-10 );
   //
   ellipse(x, y, w, h);
+  text(message, x,y);
 }
 
 
